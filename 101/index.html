@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +10,15 @@
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>101 - My Storys</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
-
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
     </head>
 
     <body>
@@ -25,7 +26,7 @@
             <div class="container">
                 <a class="navbar-brand" href="..">My Storys</a>
                 <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -33,164 +34,167 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../1/" class="nav-link">1</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../2.md" class="nav-link">2</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../3.md" class="nav-link">3</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../4.md" class="nav-link">4</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../5.md" class="nav-link">5</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../6.md" class="nav-link">6</a>
+                            <li class="nav-item">
+                                <a href="../really/" class="nav-link">6</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../7.md" class="nav-link">7</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../8.md" class="nav-link">8</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../9.md" class="nav-link">9</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../10.md" class="nav-link">10</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../11.md" class="nav-link">11</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../12.md" class="nav-link">12</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../13.md" class="nav-link">13</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../14.md" class="nav-link">14</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../15.md" class="nav-link">15</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../16.md" class="nav-link">16</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../17.md" class="nav-link">17</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../18.md" class="nav-link">18</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../19.md" class="nav-link">19</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../20.md" class="nav-link">20</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../21.md" class="nav-link">21</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../22.md" class="nav-link">22</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../23.md" class="nav-link">23</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../24.md" class="nav-link">24</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../25.md" class="nav-link">25</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../26.md" class="nav-link">26</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../27.md" class="nav-link">27</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../28.md" class="nav-link">28</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../29.md" class="nav-link">29</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../30.md" class="nav-link">30</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../31.md" class="nav-link">31</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../32.md" class="nav-link">32</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../33.md" class="nav-link">33</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../34.md" class="nav-link">34</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../35.md" class="nav-link">35</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../36.md" class="nav-link">36</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../37.md" class="nav-link">37</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../38.md" class="nav-link">38</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../39.md" class="nav-link">39</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../40.md" class="nav-link">40</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../41.md" class="nav-link">41</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../42.md" class="nav-link">42</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../43.md" class="nav-link">43</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../44.md" class="nav-link">44</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../45.md" class="nav-link">45</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../46.md" class="nav-link">46</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../47.md" class="nav-link">47</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../48.md" class="nav-link">48</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../49.md" class="nav-link">49</a>
                             </li>
-                            <li class="navitem">
-                                <a href="101:101.md" class="nav-link">None</a>
+                            <li class="nav-item">
+                                <a href="../50/" class="nav-link">50</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../51/" class="nav-link">51</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
+                    <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -201,20 +205,20 @@
 
         <div class="container">
             <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
         </button>
     </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#the-adventures-of-bearbear" class="nav-link">The Adventures of BearBear</a>
+            <li class="nav-item" data-bs-level="1"><a href="#the-adventures-of-bearbear" class="nav-link">The Adventures of BearBear</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#copyright-2023-louwbc" class="nav-link">Copyright ©2023 louwbc</a>
+            <li class="nav-item" data-bs-level="2"><a href="#copyright-2023-louwbc" class="nav-link">Copyright ©2023 louwbc</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -227,7 +231,17 @@
 
 <p># The Aventures of BearBear</p>
 <h1 id="the-adventures-of-bearbear">The Adventures of BearBear</h1>
-<h2 id="copyright-2023-louwbc">Copyright ©2023 louwbc</h2></div>
+<h2 id="copyright-2023-louwbc">Copyright ©2023 louwbc</h2>
+<ul>
+<li>1.骑马找马。小扎，找了半天，自己的。</li>
+<li>2.这天，令狐冲又练了几遍独孤九剑。愈发觉得这剑法奥妙无从。</li>
+<li>3.李燕北，看了一眼，忽然唤到：“孙冲！”
+    后面跟着的那群人中，立刻有个衣着考究，白面微胡的中年人奔跑着赶上来，正是李燕北手下的大将之一，以打造各种兵刃和暗器明满中原的“快意堂”堂主。
+    李燕北并没有放慢脚步等他，连看都没有看他一眼，只是趁着脸道：“我是不是已关照过你十五之前，绝不要再接大宗的生意？”
+    孙冲大气都不敢喘，惴惴的说：“是”。
+    “不过。。。”。
+    李燕北犀利的眼光像电一般扫了一下，孙冲的半截话只敢在肚子里打转。</li>
+</ul></div>
             </div>
         </div>
 
@@ -235,19 +249,20 @@
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -267,7 +282,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">
